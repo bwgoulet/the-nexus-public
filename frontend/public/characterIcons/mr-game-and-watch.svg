@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Mr. Game and Watch">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#93f0ff"/><stop offset="1" stop-color="#03fca1"/></linearGradient></defs>
+  <rect width="240" height="240" rx="26" fill="url(#g)"/>
+  <text x="120" y="96" font-family="Tomorrow, sans-serif" font-size="21" fill="#120d16" text-anchor="middle">MR. GAME</text>
+  <text x="120" y="126" font-family="Tomorrow, sans-serif" font-size="21" fill="#120d16" text-anchor="middle">&amp; WATCH</text>
+</svg>

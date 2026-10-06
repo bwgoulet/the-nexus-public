@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../layout/main.css" />
+    <link rel="stylesheet" href="../layout/summary_scoreboard/index.css" />
+    <style>
+      html { width: 100%; height: 100%; overflow: hidden; background: #050307; }
+      body { opacity: 1; background: radial-gradient(circle at 50% 8%, rgba(80, 200, 120, 0.16), transparent 36%), #050307; transform: scale(calc(100vw / 1920)); transform-origin: top left; }
+      .sponsor_icon { border-radius: 50%; background: linear-gradient(135deg, var(--emerald), var(--magenta)); box-shadow: 0 0 24px rgba(80, 200, 120, 0.35); }
+      .p2 .sponsor_icon { background: linear-gradient(135deg, var(--p2-score-bg-color), var(--magenta)); }
+      .player_chars .tsh_character > div, .standby_player_chars .tsh_character > div { background: linear-gradient(135deg, rgba(80, 200, 120, 0.95), rgba(200, 80, 160, 0.85)); }
+      .player_chars .tsh_character:nth-child(2) > div { background: linear-gradient(135deg, rgba(46, 137, 255, 0.95), rgba(80, 200, 120, 0.75)); }
+      .player_chars .tsh_character:nth-child(3) > div { background: linear-gradient(135deg, rgba(254, 54, 54, 0.95), rgba(200, 80, 160, 0.75)); }
+    </style>
+  </head>
+  <body class="ssbu">
+    <div class="anim_container_outer">
+      <div class="anim_container_inner">
+        <div class="match_info"><div class="tournament_name">The Nexus Spring 2026</div><div class="match">Nova vs Flux</div></div>
+        <div class="teams_container">
+          <div class="team p1">
+            <div class="team_header"><div class="sponsor_icon"></div><div class="team_name_container"><div class="team_name name">Nova University</div></div><div class="team_score score">12</div></div>
+            <div class="players_list p1_players">
+              <div class="player_row active_player"><div class="player_chars"><div class="tsh_character"><div></div></div><div class="tsh_character"><div></div></div></div><div class="player_stock_count"><span>3</span><span class="stock_label">STK</span></div><div class="player_row_name"><span class="sponsor">NOVA</span><span>Captain</span></div></div>
+              <div class="player_row"><div class="player_chars"><div class="tsh_character"><div></div></div><div class="tsh_character"><div></div></div></div><div class="player_stock_count"><span>3</span><span class="stock_label">STK</span></div><div class="player_row_name"><span class="sponsor">NOVA</span><span>Starter</span></div></div>
+              <div class="player_row eliminated"><div class="player_chars"><div class="tsh_character eliminated_char"><div></div></div></div><div class="player_stock_count"><span>0</span><span class="stock_label">STK</span></div><div class="player_row_name"><span class="sponsor">NOVA</span><span>Closer</span></div></div>
+            </div>
+            <div class="standby_list p1_standby"><div class="standby_player"><div class="standby_player_chars"><div class="tsh_character"><div></div></div></div><div class="standby_player_name">Reserve</div></div></div>
+          </div>
+          <div class="series_score_container"><div class="logo"></div><div class="p1 series_score diamond"><div class="value">1</div></div><div class="p2 series_score diamond"><div class="value">0</div></div></div>
+          <div class="vs_text">VS.</div>
+          <div class="team p2">
+            <div class="team_header"><div class="sponsor_icon"></div><div class="team_name_container"><div class="team_name name">Flux State</div></div><div class="team_score score">8</div></div>
+            <div class="players_list p2_players">
+              <div class="player_row active_player"><div class="player_chars"><div class="tsh_character"><div></div></div><div class="tsh_character"><div></div></div></div><div class="player_stock_count"><span>2</span><span class="stock_label">STK</span></div><div class="player_row_name"><span class="sponsor">FLX</span><span>Anchor</span></div></div>
+              <div class="player_row"><div class="player_chars"><div class="tsh_character"><div></div></div><div class="tsh_character"><div></div></div></div><div class="player_stock_count"><span>3</span><span class="stock_label">STK</span></div><div class="player_row_name"><span class="sponsor">FLX</span><span>Midline</span></div></div>
+              <div class="player_row eliminated"><div class="player_chars"><div class="tsh_character eliminated_char"><div></div></div></div><div class="player_stock_count"><span>0</span><span class="stock_label">STK</span></div><div class="player_row_name"><span class="sponsor">FLX</span><span>Opener</span></div></div>
+            </div>
+            <div class="standby_list p2_standby"><div class="standby_player"><div class="standby_player_chars"><div class="tsh_character"><div></div></div></div><div class="standby_player_name">Reserve</div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
